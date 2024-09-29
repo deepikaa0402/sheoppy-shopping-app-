@@ -10,17 +10,26 @@ header {
     padding: 10px;
     position: relative;
 }
-
+.nav{
+    font-size: 20px;
+    
+}
+.nav a {
+    text-decoration: none; 
+    color: black; 
+    padding: 10px 5px; 
+}
 .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .sheoppy{
     text-decoration: none;
     color: black;
 }
-.sheoppy:hover{
+.sheoppy:hover, .nav a:hover{
     color: rgb(249, 249, 132);
 }
 header h1 {
@@ -81,5 +90,15 @@ table a{
 table a:hover{
     color: rgb(249, 249, 132);
 }
-
-
+table button{
+    background-color: #3b023a; 
+    color: white;
+    border: none; 
+    padding: 10px 20px;
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+table button:hover {
+    color: rgb(249, 249, 132);
+    transform: scale(1.05); 
+}
